@@ -5,7 +5,7 @@
     padding: 0;
 }
 
-h1{
+.h1{
     background-color: black;
     color: #fff;
     text-align: center;
@@ -148,4 +148,30 @@ h1{
         grid-gap: 30px;
         padding: 35px 0px;
     }
+}
+
+.section img{
+    padding-right: 8%;
+    padding-left: 8%;
+    height: 20%;
+}
+
+.page-nav{
+    border: 1px solid black;
+    background-color: rgb(24, 23, 23);
+}
+.page-nav h1{
+    color: #efefef;
+    margin: 20px;
+    text-align: center;
+}
+
+.page-content{
+    border: 1px solid red;
+    display: flex;
+}
+
+.product-container img{
+  width: 400px;
+  height: 300px;
 }
