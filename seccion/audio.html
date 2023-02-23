@@ -51,7 +51,7 @@
       
         <div class="page-nav">
               <h1>TIENDA ONLINE</h1>
-              <button class="button-checkout">PAGAR</button>
+              <button id="checkout" class="button-checkout" onclick="pay()">PAGAR</button>
         </div> 
 
         <div class="page-content">
@@ -59,7 +59,7 @@
              <h3>AMORTIGUADOR</h3>
              <img class="sec__img" src="../img/12.webp" alt="amortiguador">
              <h3>$34000</h3>
-             <button class="button-add">agregar</button>
+             <button class="button-add" onclick="add('12.webp', 34000)">agregar</button>
             </div>
           
 
@@ -68,7 +68,7 @@
                <h3>SELECTORA RAPIDA</h3>
                <img class="sec__img" src="../img/caja.webp" alt="caja de cambio">
                <h3>$44000</h3>
-               <button class="button-add" onclick="add()">agregar</button>
+               <button class="button-add" onclick="add('caja.webp', 44000)">agregar</button>
             </div>
           
 
@@ -77,7 +77,7 @@
                  <h3>FUELLE NEUMATICO</h3>
                  <img class="sec__img" src="../img/fuelle.webp" alt="bolsa de aire">
                  <h3>$20000</h3>
-                 <button class="button-add">agregar</button>
+                 <button class="button-add" onclick="add('fuelle.webp', 20000)">agregar</button>
               </div>
             
 
@@ -86,7 +86,7 @@
                    <h3>LLANTA </h3>
                    <img class="sec__img" src="../img/llanta.jpg" alt="llanta del auto">
                    <h3>$19000</h3>
-                   <button class="button-add">agregar</button>
+                   <button class="button-add" onclick="add('llanta.jpg', 19000)">agregar</button>
                 </div>
               
 
@@ -95,7 +95,7 @@
                      <h3>LLANTA</h3>
                      <img class="sec__img" src="../img/llantaa.jpg" alt="llanta del auto">
                      <h3>$20000</h3>
-                     <button class="button-add">agregar</button>
+                     <button class="button-add" onclick="add('llantaa.jpg', 20000)">agregar</button>
                   </div>
                 
 
@@ -104,28 +104,28 @@
                        <h3>CUBIERTA</h3>
                        <img class="sec__img" src="../img/cubierta.webp" alt="cubierta de 15">
                        <h3>$50000</h3>
-                       <button class="button-add">agregar</button>
+                       <button class="button-add" onclick="add('cubierta.webp', 50000)">agregar</button>
                     </div>
 
                     <div class="product-container">
                       <h3>CENTRO DE LLANTA</h3>
                       <img class="sec__img" src="../img/centro.webp" alt="centro de llanta">
                       <h3>$4000</h3>
-                      <button class="button-add">agregar</button>
+                      <button class="button-add" onclick="add('centro.webp', 4000)">agregar</button>
                    </div>
 
                    <div class="product-container">
                     <h3>BOLA DE CAMBIOS</h3>
                     <img class="sec__img" src="../img/bola.webp" alt="bola de cambios">
                     <h3>$2000</h3>
-                    <button class="button-add">agregar</button>
+                    <button class="button-add" onclick="add('bola.webp', 2000)">agregar</button>
                  </div>
 
                  <div class="product-container">
                   <h3>VALVULA DE TAPAS</h3>
                   <img class="sec__img" src="../img/tapas.webp" alt="tapas de valvula">
                   <h3>$5400</h3>
-                  <button class="button-add">agregar</button>
+                  <button class="button-add" onclick="add('tapas.webp', 5400)">agregar</button>
                </div>
                   
     </section>     
@@ -141,8 +141,8 @@
           </div>
           <div class="box">
             <h2>SOBRE NOSOTROS</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, a!</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, a!</p>
+            <p>Honda Argentina </p>
+            <p>AV. Balbín 5660 Merlo, Buenos Aires Argentina</p>
           </div>
           <div class="box">
             <h2>SIGUENOS</h2>
